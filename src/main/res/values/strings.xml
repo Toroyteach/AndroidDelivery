@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">Delivery</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Settings</string>
+    <string name="previous">Home</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="emailstring">email</string>
+    <string name="passwordstring">password</string>
+    <string name="passwordstringhint">**********</string>
+    <string name="loginstring">login</string>
+    <string name="registrationstring">Register</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="map_string">Map</string>
+    <string name="car_string">Car</string>
+    <string name="back_string">back</string>
+    <string name="confirm_string">confirm</string>
+    <string name="name_string">Name</string>
+    <string name="phone_string">Phone</string>
+    <string name="display_string">Display text goes here</string>
+    <string name="working_string">Active</string>
+    <string name="destination">Destination: --</string>
+    <string name="picked_customer">picked customer</string>
+    <string name="active_string">Active</string>
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="hue">Hue</string>
+    <string name="save">Update</string>
+    <string name="alpha">Alpha</string>
+    <string name="width">Width</string>
+    <string name="start_cap">Start cap</string>
+    <string name="end_cap">End cap</string>
+    <string name="joint_type">Joint Type</string>
+    <string name="pattern">Pattern</string>
+    <string name="cap_butt">Butt</string>
+    <string name="cap_square">Square</string>
+    <string name="cap_round">Round</string>
+    <string name="cap_image">Image</string>
+    <string name="joint_type_default">Default</string>
+    <string name="joint_type_bevel">Bevel</string>
+    <string name="joint_type_round">Round</string>
+    <string name="pattern_solid">Solid</string>
+    <string name="pattern_dotted">Dotted</string>
+    <string name="pattern_dashed">Dashed</string>
+    <string name="pattern_mixed">Mixed</string>
+    <string name="clickable">Clickable</string>
+    <string name="polyline_demo_description">Demonstrates how to add Polylines to a map.</string>
+    <string name="get_direction_string">Get Direction</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Together we can reach each other</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_nav">FrSystem</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Map</string>
+    <string name="menu_gallery">Orders</string>
+    <string name="menu_slideshow">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goe_string">Goe</string>
+    <string name="NO_INFORMATION">No information here</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="save_string">Save</string>
+    <string name="description_string">Description</string>
+    <string name="products_string">Products</string>
+    <string name="number_string">Number</string>
+    <string name="location_string">Location</string>
+    <string name="element_text">Element</string>
+    <string name="grid_layout_manager">Grid Layout Manager</string>
+    <string name="linear_layout_manager">Linear Layout Manager</string>
+
+    <string name="userinfoname">Katy Perry</string>
+    <string name="userinfonumber">0712345678</string>
+    <string name="userinfolocation">Kiserian</string>
+    <string name="userinfodistance">9km</string>
+    <string name="showpopup_string">poppup</string>
+    <string name="nextinfo_button">Next</string>
+    <string name="previnfo_button">Previous</string>
+    <string name="startdelivery_button">Start</string>
+
+    <string name="title_no_location_dialog">Cannot find location</string>
+    <string name="subtitle_no_location_dialog">No location has been provied. Try again</string>
+    <string name="understood_label">Understood</string>
+    <string name="clientinfoname_string">Firstname Lastname</string>
+    <string name="clientinfonumber_string">071051629769</string>
+    <string name="clientinfodesc_string">Descriptiom</string>
+    <string name="clientinfolocation_string">Location</string>
+    <string name="clientinfodate_string">12-04-2020 1234pm</string>
+    <string name="orders_string">Current Orders</string>
+    <string name="activedelivery_string">Active Orders</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="tasks_string">0</string>
+    <string name="appbartitle">App Bar Title</string>
+    <string name="settingsactivity">Act Bar Title settings</string>
+
+
+    <string name="discover">Discover</string>
+    <string name="shop">Shop</string>
+    <string name="offers">Offers</string>
+    <string name="rewards">Rewards</string>
+    <string name="discover_text">Look for things around you</string>
+    <string name="shop_text"><![CDATA[Get the best deals & Coupons]]></string>
+    <string name="offers_text">Find great offers while you discover</string>
+    <string name="rewards_text"><![CDATA[Free recharge coupons & more]]></string>
+    <string name="get_started">Get Started</string>
+    <string name="monday_string">Monday</string>
+    <string name="tuesday_string">Tuesday</string>
+    <string name="wednesday_string">Wednesday</string>
+    <string name="closebtnpopup_string">X</string>
+    <string name="distance">Distance</string>
+    <string name="orderid">Order Id</string>
+    <string name="jobs_string">Available Jobs</string>
+    <string name="sliderheading_string">Jobs Monitor</string>
+    <string name="your_active_jobs_strings">Your Active Jobs</string>
+
+    <string name="ordersdone_string">Jobs Completed</string>
+    <string name="Currentactivejobs_string">Active Jobs</string>
+    <string name="updatebtn_string">Update</string>
+    <string name="string_09763578977">09763578977</string>
+    <string name="string_stats">Statistics</string>
+    <string name="string_displayname">Frant Sanatra</string>
+    <string name="string_displayemail">Fsanatra@gmail.com</string>
+
+    <string name="userinfoname_string">Michael Jackson</string>
+    <string name="userinfoemail_string">mj@nba.com</string>
+    <string name="userinfodistance_distance">9km</string>
+    <string name="userinfo_location">Eldy</string>
+    <string name="userinfo_start">Start</string>
+    <string name="userinfo_Distance">Distance</string>
+    <string name="userinfo_location_string">Location</string>
+    <string name="userinfo_phone">Phone</string>
+    <string name="userinfo_phonenumber">0710281212</string>
+    <string name="userinfo_orderid">CWQED2487G</string>
+
+
+    <string name="launch_activity">OPEN</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for Core Functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Remove updates</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+
+    <string name="add_geofences">Add geofences</string>
+    <string name="remove_geofences">Remove geofences</string>
+
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">You have provided too many PendingIntents to the addGeofences() call</string>
+    <string name="unknown_geofence_error">Unknown error: the Geofence service is not available now</string>
+    <string name="geofence_transition_invalid_type">Geofence transition error: invalid transition type %1$d</string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered delivery Area</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="geofence_transition_dwell">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">You have arrived at your delivery point</string>
+
+    <string name="insufficient_permissions">Insufficient permissions.</string>
+
+</resources>

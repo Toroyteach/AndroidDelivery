@@ -1,0 +1,16 @@
+package com.example.frsystem.home.GeoFence;
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+
+public class GeoFenceReceiver extends BroadcastReceiver {
+
+    private static final String TAG = "";
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+        // Enqueues a JobIntentService passing the context and intent as parameters
+        GeofenceTransitionsJobIntentService.enqueueWork(context, intent);
+    }
+}

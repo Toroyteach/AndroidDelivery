@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.HomeFragment" >
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="418dp"
+        android:layout_height="660dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="122sp"
+        android:layout_height="43sp"
+        android:text="@string/active_string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"
+        android:background="#f4f4f4"/>
+
+    <TextView
+        android:id="@+id/driveractivetasks"
+        android:layout_width="137dp"
+        android:layout_height="24dp"
+        android:text="@string/activedelivery_string"
+        android:textColor="@color/album_title"
+        android:textSize="@dimen/album_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <RelativeLayout
+        android:id="@+id/userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/map"
+        app:layout_constraintTop_toTopOf="@+id/map"
+        android:layout_marginTop="420sp"
+        android:visibility="gone">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="395dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3sp"
+            app:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="134dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/thumbnail"
+                        android:layout_width="133dp"
+                        android:layout_height="match_parent"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:contentDescription="@string/todo"
+                        android:focusable="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/kamran1" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="261dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/userinfoname"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:text="@string/userinfoname"
+                        android:textColor="@color/album_title"
+                        android:textSize="@dimen/album_title" />
+
+                    <TextView
+                        android:id="@+id/userinfonumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:layout_below="@+id/userinfoname"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:text="@string/userinfonumber"
+                        android:textColor="@color/album_title"
+                        android:textSize="@dimen/album_title" />
+
+                    <TextView
+                        android:id="@+id/userinfolocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:layout_below="@+id/userinfonumber"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:text="@string/userinfolocation"
+                        android:textColor="@color/album_title"
+                        android:textSize="@dimen/album_title" />
+
+                    <TextView
+                        android:id="@+id/userinfodistance"
+                        android:layout_width="match_parent"
+                        android:layout_height="30sp"
+                        android:layout_below="@+id/userinfolocation"
+                        android:paddingLeft="@dimen/album_title_padding"
+                        android:paddingTop="@dimen/album_title_padding"
+                        android:paddingRight="@dimen/album_title_padding"
+                        android:text="@string/userinfodistance"
+                        android:textColor="@color/album_title"
+                        android:textSize="@dimen/album_title" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_view"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonpreviousinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/previnfo_button"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/buttonstartdelivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/startdelivery_button" />
+
+            <Button
+                android:id="@+id/buttonextinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/nextinfo_button" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

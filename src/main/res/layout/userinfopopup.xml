@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/userinfo">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="395dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3sp"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="134dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="133dp"
+                    android:layout_height="match_parent"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:clickable="true"
+                    android:contentDescription="@string/todo"
+                    android:focusable="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kamran1" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="261dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/userinfoname"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:text="@string/userinfoname"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/album_title" />
+
+                <TextView
+                    android:id="@+id/userinfonumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_below="@+id/userinfoname"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:text="@string/userinfonumber"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/album_title" />
+
+                <TextView
+                    android:id="@+id/userinfolocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_below="@+id/userinfonumber"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:text="@string/userinfolocation"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/album_title" />
+
+                <TextView
+                    android:id="@+id/userinfodistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_below="@+id/userinfolocation"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingTop="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:text="@string/userinfodistance"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/album_title" />
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/card_view">
+        <Button
+            android:id="@+id/buttonpreviousinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/previnfo_button" />
+
+        <Button
+            android:id="@+id/buttonstartdelivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/startdelivery_button" />
+
+        <Button
+            android:id="@+id/buttonextinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nextinfo_button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="370sp"
+    android:layout_height="470sp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="5sp"
+    android:background="@color/mygray">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="31dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:text="@string/closebtnpopup_string" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_clientpopup"
+            android:layout_width="257dp"
+            android:layout_height="163dp"
+            android:layout_marginTop="10sp"
+            android:src="@drawable/kamran1"
+            app:civ_border_color="#FFf"
+            app:civ_border_width="3dp"
+            android:layout_marginStart="50sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0sp"
+                android:layout_weight="0.35"
+                android:layout_height="40sp"
+                android:text="@string/name_string"
+                android:textSize="13sp"
+                android:layout_marginStart="15sp"
+                android:padding="10sp" />
+            <EditText
+                android:layout_width="0sp"
+                android:layout_height="40sp"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:hint="@string/name_string"
+                android:inputType="text"
+                android:padding="12sp"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:autofillHints=""
+                android:id="@+id/popupwindowclientname"
+                android:enabled="false"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_weight="0.35"
+                    android:layout_height="40sp"
+                    android:text="@string/number_string"
+                    android:textSize="13sp"
+                    android:layout_marginStart="15sp"
+                    android:padding="10sp"/>
+                <EditText
+                    android:layout_width="0sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:hint="@string/userinfo_phonenumber"
+                    android:inputType="number"
+                    android:padding="12sp"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:autofillHints=""
+                    android:id="@+id/popupwindowclientnumber"
+                    android:enabled="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_weight="0.35"
+                    android:layout_height="40sp"
+                    android:text="@string/location_string"
+                    android:textSize="13sp"
+                    android:layout_marginStart="15sp"
+                    android:padding="10sp"/>
+                <EditText
+                    android:layout_width="0sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:hint="@string/userinfo_location"
+                    android:padding="12sp"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:autofillHints=""
+                    android:id="@+id/popupwindowclientlocation"
+                    android:enabled="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_weight="0.35"
+                    android:layout_height="40sp"
+                    android:text="@string/distance"
+                    android:textSize="13sp"
+                    android:layout_marginStart="15sp"
+                    android:padding="10sp"/>
+                <EditText
+                    android:layout_width="0sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:hint="@string/userinfodistance_distance"
+                    android:padding="12sp"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:autofillHints=""
+                    android:id="@+id/popupwindowclientdistance"
+                    android:enabled="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_weight="0.35"
+                    android:layout_height="40sp"
+                    android:text="@string/orderid"
+                    android:textSize="13sp"
+                    android:layout_marginStart="15sp"
+                    android:padding="10sp"/>
+                <EditText
+                    android:layout_width="0sp"
+                    android:layout_height="40sp"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:hint="@string/userinfo_orderid"
+                    android:padding="12sp"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:autofillHints=""
+                    android:id="@+id/popupwindowclientorderid"
+                    android:enabled="false"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "163262795578",
+    "firebase_url": "https://frsystem-1deb4.firebaseio.com",
+    "project_id": "frsystem-1deb4",
+    "storage_bucket": "frsystem-1deb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163262795578:android:235dd1599579b1d9e14a03",
+        "android_client_info": {
+          "package_name": "com.example.frsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163262795578-ct63b23gj2tvbp8g9gt48fsevsujfvvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.frsystem",
+            "certificate_hash": "fe88e8c3feb88667a3bbc4106556bd10d3e9f83b"
+          }
+        },
+        {
+          "client_id": "163262795578-gsu9pok9vudi19lnkvlc8gdqjf00q3tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_vy_F4L_fPBKBsER_LW1nnjmvzX0Q4oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163262795578-gsu9pok9vudi19lnkvlc8gdqjf00q3tg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

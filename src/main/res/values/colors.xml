@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="title">#3F4A58</color>
+
+    <color name="white">#FFF</color>
+    <color name="subtitle_dark">#757E90</color>
+    <color name="subtitle_light">#A2AFC0</color>
+    <color name="detail_pink">#F52C82</color>
+    <color name="detail_blue">#58B2FE</color>
+
+    <color name="mygray">#aba9a4</color>
+    <color name="darkgray">#d6d6d6</color>
+    <color name="windowBackgroud">#7a5e4d</color>
+    <color name="windownotificationvar">#300396</color>
+    <color name="displaybarcolorr">#2f4173</color>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80sp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width = "match_parent"
+            android:layout_height = "80sp"
+            android:gravity = "center_vertical"
+            android:padding = "5dp"
+            android:background="@color/displaybarcolorr"
+            android:baselineAligned="false"
+            android:id="@+id/mytoolbar">
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:layout_width="63dp"
+                    android:layout_height="48dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_arrow_left"
+                    android:layout_gravity="center" />
+
+                <LinearLayout
+                    android:layout_width="84dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/appbartitle"
+                        android:textColor="#ffffff"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="57dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.4"
+                    android:gravity="end">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image_appabr"
+                        android:layout_width="80dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/kamran1"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp"
+                        android:layout_marginTop="0sp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

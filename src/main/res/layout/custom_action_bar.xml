@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "70sp"
+    android:gravity = "center_vertical"
+    android:padding = "10dp"
+    android:weightSum = "1.0"
+    android:background="@color/darkgray"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    app:contentInsetStart="-5sp"
+    app:contentInsetEnd="0sp">
+
+    <LinearLayout
+        android:layout_width="95dp"
+        android:layout_height="65dp"
+        android:layout_weight="0.6">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="57dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="4sp"
+            android:src="@drawable/kamran1"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="119dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="32sp"
+            android:gravity="center"
+            android:text="@string/active_string" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="0.4">
+
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="9sp"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/ic_launcher_activetask_foreground" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/tasks_string" />
+    </LinearLayout>
+</LinearLayout>
