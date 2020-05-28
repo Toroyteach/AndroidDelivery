@@ -1,0 +1,4 @@
+# AndroidDelivery
+Android Application with geoAware services
+Here we have an android delivery system application which makes good use of google maps api system to query drivers and the clients location.
+The application works on a basic straight forward architecture where driver(user) downloads the app provides there credentials (security reasons) then is directed to the DirectionsActivity(main activity). Here there’s map and switch to activate job status(active for able to start the actively selected jobs and off for when not active.) the driver can then go to orders activity where there’s two fragments. Active fragment for the jobs he picked and are thus active and Available fragments. On the available fragment user can tap on recyclerview item for pop up view of the details or long press to have pop up dialog to add jobs to active job or not.
