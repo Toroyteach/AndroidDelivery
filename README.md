@@ -1,4 +1,7 @@
 # AndroidDelivery
-Android Application with geoAware services
-Here we have an android delivery system application which makes good use of google maps api system to query drivers and the clients location.
-The application works on a basic straight forward architecture where driver(user) downloads the app provides there credentials (security reasons) then is directed to the DirectionsActivity(main activity). Here there’s map and switch to activate job status(active for able to start the actively selected jobs and off for when not active.) the driver can then go to orders activity where there’s two fragments. Active fragment for the jobs he picked and are thus active and Available fragments. On the available fragment user can tap on recyclerview item for pop up view of the details or long press to have pop up dialog to add jobs to active job or not.
+Android Application with geoAware services.
+This application i created to be able to facilitate a company or an entity where they need to provide a list of services or jobs available for clients. A user in this case downloads the app and goes to available jobs section. Once they have viewd on the jobs and have selected the suitable ones, it is removed from the available jobs database and sent to the (current users) jobs selected and stored together with the users information. The details of the jobs selected contains geo location of the job(s) selected and once the user selects to start the jobs they app freezes all services and starts a directions api service from google where they it takes you to the job location and notifies you of any necessary notifications.
+Note this app uses wifi connection, the app will keep cheking on the type of connection you currently have on, it will notify you and when it changes to celluar ther services will stop, this for reliability and seemless working of the app. This app uses Firebase databse for both auth and saving of jobs etc. Firebase ia realtime database storage option for google which gives users realtime access and to easily make changes to data.
+
+This app is still under development and any changes improvements are welcomed and encouraged.
+
